@@ -4,7 +4,7 @@ Stanford cars dataset prediction with fastai.v1. The main idea is using box in t
 This repo take https://github.com/mazenmel/Stanford-Car-Dataset/blob/master/stanfordCars.ipynb as the structure. The MaskRCNN https://github.com/matterport/Mask_RCNN was used to generate segmented car. In the dataset, there are the original cropped image and the segmented one (with white background). Train - valid dataset split: 80%. You can see the training process in stanfordCars - AWS.ipynb file. 
 
 For prediction, 
-- Please download the fastai library and the trained model (stanford-cars-mixed-2.pth []). 
+- Please download the fastai library and the trained model (stanford-cars-mixed_v.pth [https://drive.google.com/open?id=1zI8djkX6PqKynLFSY4cVYYjiiOy246uj]). 
 - Create folder tmp and put the test folder as subdirectory.
 - Then run the jupyter notebook stanfordCars prediction file. It will guide you to infer single file or by folder.
 
