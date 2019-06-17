@@ -7,4 +7,4 @@ This repo take https://github.com/mazenmel/Stanford-Car-Dataset/blob/master/stan
 Overall accuracy: 77.07 % (on cars_test data)
 
 Take-away points:
-- Cropping and segmenting dataset can't improve the accuracy from basesline (mazenmel repo).
+- Cropping and segmenting dataset can't improve the accuracy from baseline (mazenmel repo).
