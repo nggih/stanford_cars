@@ -6,7 +6,7 @@ This repo take https://github.com/mazenmel/Stanford-Car-Dataset/blob/master/stan
 For prediction, 
 - Please install the fastai library (https://github.com/fastai/fastai/blob/master/README.md#installation). or by conda install -c pytorch -c fastai fastai
 - Download the trained model (stanford-cars-mixed_v.pth in [https://drive.google.com/open?id=1zI8djkX6PqKynLFSY4cVYYjiiOy246uj]). 
-- Create folder tmp on your cwd.
+- Create folder tmp in stanford_cars folder.
 - Create a 'test' folder (extract or put your test data here) and a 'models' folder under tmp.
 - Put the stanford-cars-mixed_v.pth in ./tmp/models/
 - Then run the jupyter notebook stanfordCars_AWS_prediction.ipynb file. It will guide you to infer single file or by folder.
