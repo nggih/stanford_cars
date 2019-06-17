@@ -19,8 +19,12 @@ Notes:
 ### With cropped train data + segmented train data (MaskRCNN)
 Overall accuracy: 77.07 % (on cars_test data)
 
+### With cropped train data +original data+ cropped segmented data + resized segmented train data (MaskRCNN)
+Overall accuracy: 85.11 % (on cars_test data)
+
 Take-away points:
 - Cropping and segmenting dataset can't improve the accuracy from baseline (mazenmel repo).
+- Unless the original image exists on the train dataest.
 
 Next steps:
 - Try not cropping, then segment the dataset. Mix it with original image.
